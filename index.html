@@ -6,3 +6,210 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Trabajo Teo</title>
+<script type="text/javascript"></script>
+<div class="container">
+<div class="row">
+  <div class="colum">
+    <div class="card">
+        <div class="container2">
+        <h2>Teo Bellver</h2>
+        <p class="title">Adolecente y Estudiante</p>
+        <p>Me gusta programar y ver videos, jugar minecraft con amigos y divertirme.</p>
+        <p><button class="button" onClick="alert('Hola')">Contactar</button></p>
+      </div>
+    </div>
+  </div>      
+</div>
+
+          <style>  
+     .container2{
+      border-radius: 4px;
+            background-color: white;
+            width: 950px;
+            margin: auto;
+height: 180px;    
+padding: 1px; 
+}
+     .container{
+            border-radius: 4px;
+            background-color: white;
+            width: 1000px;
+margin: auto;
+          }
+ .body{
+background-color: whitesmoke;
+
+}
+   * {
+  box-sizing: border-box;
+}
+
+/* Some left and right padding inside the container */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+  text-align: center;
+
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor:alias;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+  input{
+  border-radius: 5px ;
+  padding: 12PX 1000;
+
+}
+
+
+img.sticky {
+  position: sticky;
+  top: 0;
+} 
+input:focus  {
+  border: 2px red;
+ 
+
+} 
+.cuestionario {
+  background-color: yellowgreen;
+  color: white;
+  border: 2px solid black;
+  margin: 1px;
+  padding: 14px;
+
+}
+.educloud {
+  max-height: 100px;
+  display: block;
+} 
+.contents {
+  background-color: green;
+  color: white;
+  border: 2px solid black;
+  margin: 19px;
+  padding: 5px;
+  text-align: center;
+}
+</style>
+
+</head>
+<body class="body">
+  <div class="container">
+  <div class="contents">
+    <h1>CONTENIDOS</h1>
+    <ul>
+      <!--href, enlace, pero esta ves adentro de la misma pagina. -->      
+      <a href="#Pikachu"><li>Primer foto con link </li></a> <br>
+
+      <a href="#Redes"><li>Redes y agradecimientos</li></a> <br>
+    </ul>                                                       
+    </div>                  
+<br>
+<button class="button" onClick="alert('Hola')" style="border-width:3px;background-color:tomato;border-style  :solid;  position:fixed; padding:10px;bottom: 34px;right: 60px;max-width:45px;z-index:999">XD</button></p>
+
+    <a id="Pikachu" href="https://pokemon.fandom.com/es/wiki/Pok%C3%A9mon_legendario" target="_blank" id="pikachu" > 
+      <img width="100" src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2020/09/como-conseguir-pikachu-gorra-pokemon-espada-escudo-2083655.jpg?itok=kziVIlM2">
+        <!--href, enlace, pero esta ves no solo dentro de la imagen, si no que afuera de la pagina. -->      
+
+</a>
+ <!-- especificar el tamaño de la imagen cambiando el 100 por el tamaño de la imagen que prefieran-->     
+ <header>
+  <br>Esta foto representa la primer foto que puse en una pagina Web
+<br> 
+</header>
+ <br>
+    <form action="http://trollface.dk/">
+<div class="cuestionario">
+    <label for="nombre">Nombre</label><br>
+    <input type="text" id="nombre" name="nombre" placeholder="Insertar Nombre" maxlength="200000000000000000000" size="28" required><br>
+    <label for="apellido">Apellido</label><br>
+    <input type="text" id="apellido" name="apellido" placeholder="Insertar Apellido" maxlength="200000000000000000000" size="28" required> <br>
+  <label for="archivo">Archivo:</label> (opcional)<br>
+  <input type="file" id="archivo" name="archivo" multiple><br>
+    <input type="radio" id="mujer" name="genero" value="hombre">
+      <label for="hombre">hombre</label><br>
+      <input type="radio" id="mujer" name="genero" value="mujer">
+      <label for="female">mujer</label><br>
+      <input type="radio" id="otro" name="genero" value="otro">
+      <label for="otro">otro</label> <br>
+     <label for="enviar" id="enviar" name="enviar" value="submit"></label><br>
+     <div class="gordo">
+      <input type="submit" id="enviar"  value="Enviar">    
+     </div>
+  </fieldset>
+</div></form><br>
+  <p>Click the button to loop through a block of code five times.</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+
+<script>
+  function myFunction() {
+  var x = "", i;
+  for (i=0; i<1; i++) {
+    x = x + "The number is " + i + "<br>";
+  }
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+</body>
+    <footer>
+   <br>    Mis redes sociales.
+        <ul id="Redes">
+          <li>Twitter  
+            <a target="blank" href="https://twitter.com/teo10425926?s=09">
+              @teo10425926
+            </a>
+          </li>
+          <li>Instragram <a target="blank" href="https://www.instagram.com/teobellver_">@teobellver_</a></li>   <li> Email:<a   href="mailto:teobellverwhite@gmail.com" target="blank">teobellverwhite@gmail.com          </a> </li> </ul>
+    <p>Agradecimientos enormes a mis papas que me dan de comer mientras trabajo en este proyecto revolucionario.</p>
+      <br>
+      <button onClick="alert('¡Hola seguidor de la grasa, estas perdido? albion online es un mmorpg no lineal en el que escribes tu propia historia sin limitarte a seguir un camino prefijado, explora un amplio mundo abierto con cinco biomas unicos, todo cuanto hagas tendra su repercusíon en el mundo, con su economia orientada al jugador de albion los jugadores crean practicamente todo el equipo a partir de los recursos que consiguen, el equipo que llevas define quien eres, cambia de arma y armadura para pasar de caballero a mago o juego como una mezcla de ambas clases, aventurate en el mundo abierto y haz frente a los habitantes y las criaturas de albion, inicia expediciones o adentrate en mazmorras en las que encontraras enemigos aun mas dificiles, enfrentate a otros jugadores en encuentros en el mundo abierto, lucha por los territorios o por ciudades enteras en batallas tacticas, relajate en tu isla privada donde podras construir un hogar, cultivar cosechas, criar animales, unete a un gremio, todo es mejor cuando se trabaja en grupo [musica] adentrate ya en el mundo de albion y escribe tu propia historia.')">.</button>
+
+Copyright 2019-2021 Teo Bellver. Todos los derechos reservados.
+      </footer>
+    </div>
+    <html\>
